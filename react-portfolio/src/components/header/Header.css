@@ -1,0 +1,45 @@
+header {
+    overflow: hidden;
+    height: 100vh;
+}
+/* logo */
+header img {
+    padding: 10px;
+    border-radius: 50%;
+}
+
+
+.header_container {
+    height: 100%;
+    text-align: center;
+    position: relative;
+    font-size: 30px;
+}
+.headH1 {
+    color:rgb(31, 185, 231);}
+
+     /*---- Media Queries ----*/
+
+     /* Medium Devices */
+
+     @media screen and (max-width: 1024px){ 
+         header img {
+             width: 140px;
+         }
+         .header_container{
+            font-size: 25px;
+         }
+         
+         
+     }
+     /* Small Devices */
+     @media screen and (max-width: 600px){ 
+
+        header img {
+            width: 120px;
+        }
+         .header_container {
+             font-size: 20px;
+         }
+         
+    }

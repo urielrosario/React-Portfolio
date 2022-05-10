@@ -1,10 +1,15 @@
 import React from 'react'
+import './About.css'
 
 const About = () => {
     return (
-        <div>
-            About
-        </div>
+        <section id='about'>
+            <h1>About Me</h1>
+            <div className='container'>
+                
+
+            </div>
+        </section>
     )
 }
 export default About

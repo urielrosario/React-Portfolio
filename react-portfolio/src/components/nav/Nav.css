@@ -1,0 +1,35 @@
+nav {
+    display: block;
+    background: rgba(0, 0, 0, 0.2);
+    width: max-content;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 3rem;
+    display: flex;
+    gap: 1.4rem;
+    border-radius: 2rem;
+    backdrop-filter: blur(15px);
+
+}
+nav a {
+    padding: 0.8rem;
+    background: transparent;
+    border-radius: 50%;
+    display: flex;
+    font-size: 25px;
+    
+}
+
+nav a:hover{
+    /* color: var(--light-blue); */
+    color: rgb(31, 185, 231);
+    transform: scale(1.2);
+}
+/* shows light blue when */
+nav a.active{
+    color: rgb(31,185,231);
+    font-size: 26px;
+
+}

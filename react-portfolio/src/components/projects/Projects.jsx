@@ -2,9 +2,7 @@ import React from 'react'
 
 const Project = () => {
     return (
-        <div>
-            Project
-        </div>
+        <section id='project'>Projects</section>
     )
 }
 export default Project
