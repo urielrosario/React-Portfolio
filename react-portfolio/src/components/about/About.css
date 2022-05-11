@@ -1,0 +1,42 @@
+ #about{
+    
+    position: relative;
+    padding: 20px 180px;
+    
+}
+.about-container {
+    text-align:center;
+    position: relative;
+    
+}
+.about-me-image img {
+    position: relative;
+    height: 300px;
+    border-radius: 20px;
+    padding:15px;
+    margin:20px;
+    background: linear-gradient(45deg, transparent, rgb(31,185,231) );
+    position: relative;
+}
+.about-content h3 {
+    font-size: 25px;
+    padding: 10px 60px;
+    background-color: black;
+    border-radius: 15px;
+    opacity: 0.9;
+    
+}
+
+
+.title2 {
+    font-size: 30px;
+    text-align: center;
+   
+    
+}
+
+h1:hover {
+    color: rgb(31, 185, 231);
+    transition: transform 250ms;
+    transform: translateY(-10px);
+}

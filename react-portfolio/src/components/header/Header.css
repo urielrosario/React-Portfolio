@@ -3,9 +3,25 @@ header {
     height: 100vh;
 }
 /* logo */
-header img {
+.logo img {
     padding: 10px;
     border-radius: 50%;
+}
+.me {
+    height: 50vh;
+    width: 44vh;
+    border-radius: 30px;
+    padding: 10px;
+    /* background-color: rgba(31, 185, 231,0.3); */
+    background: linear-gradient(45deg, transparent, rgb(31,185,231) );
+    
+}
+.me:hover {
+    transition: transform 250ms;
+    transform: translateY(-14px);
+}
+.me-card {
+   padding-top: 20px;
 }
 
 
@@ -28,6 +44,11 @@ header img {
          }
          .header_container{
             font-size: 25px;
+         }
+         .me {
+            height: 45vh;
+            width: 36vh;
+
          }
          
          
