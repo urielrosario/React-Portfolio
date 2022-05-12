@@ -18,7 +18,7 @@ nav a {
     background: transparent;
     border-radius: 50%;
     display: flex;
-    font-size: 25px;
+    font-size: 30px;
     
 }
 
@@ -30,6 +30,6 @@ nav a:hover{
 /* shows light blue when */
 nav a.active{
     color: rgb(31,185,231);
-    font-size: 26px;
+    /* font-size: 30px; */
 
 }

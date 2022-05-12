@@ -7,10 +7,10 @@ import './Nav.css'
 
 
 const Nav = () => {
-    const [clickedNav,setClickedNav]= useState('#')
+    const [clickedNav,setClickedNav]= useState('#home')
     return (
         <nav>
-            <a href="#" onClick={()=> setClickedNav('#')} className={clickedNav === '#' ? 'active': ''}><AiOutlineHome/></a>
+            <a  href="#home" onClick={()=> setClickedNav('#home')} className={clickedNav === '#' ? 'active': ''}><AiOutlineHome/></a>
             <a href=" #about" onClick={()=> setClickedNav('#about')} className={clickedNav === '#about' ? 'active': ''}><AiOutlineUser/></a>
             <a href="#project" onClick={()=> setClickedNav('#project')} className={clickedNav === '#project' ? 'active': ''}><BsClipboardCheck/></a>
             <a href="#contact" onClick={()=> setClickedNav('#contact')} className={clickedNav === '#contact' ? 'active': ''}><AiOutlineContacts/></a>

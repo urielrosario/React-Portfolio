@@ -1,0 +1,40 @@
+footer{
+    background: linear-gradient(45deg, transparent, rgb(31,185,231) );
+    /* width: 100%; */
+    text-align: center;
+    padding-top: 6rem;
+    padding-bottom: 20rem;
+    margin-top: 20vh;
+
+}
+.contacts a {
+    padding: 0.8rem;
+    font-size: 60px;
+}
+.contacts a:hover {
+    color: rgb(15, 168, 228);
+    transform: scale(3.3);
+}
+
+/*---- Media Queries ----*/
+
+     /* Medium Devices */
+
+     @media screen and (max-width: 1024px){ 
+        .contacts a {
+            align-items: center;
+        }
+        
+        
+    }
+    /* Small Devices */
+    @media screen and (max-width: 600px){ 
+
+      footer{
+          background-color: antiquewhite;
+          width: 100vh;
+
+      }
+      
+        
+       }

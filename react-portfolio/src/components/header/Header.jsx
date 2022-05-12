@@ -5,7 +5,7 @@ import Me from '../../assets/me.jpg'
 
 const Header = () => {
     return (
-       <header>
+       <header id='home'>
            <div className='logo'>
                <img src={Logo} width='160px'  alt="logo" />
            </div>
@@ -17,6 +17,7 @@ const Header = () => {
                    <img className='me' src={Me} alt='profile'/>
                </div>
            </div>
+           
        </header>
     )
 }
